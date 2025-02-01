@@ -1,0 +1,25 @@
+.Centered {
+    text-align: center;
+}
+
+body {
+    background-color: #1d2a35;
+    color: #dfdcdb;
+}
+
+.daysOfWeek {
+    border: 2px solid #dfdcdb;
+    width: 20%;
+    text-align: center;
+}
+
+#Tuesday {
+    border: 2px solid #dfdcdb;
+    width: 20%;
+}
+
+#weekdays, #weekends {
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+}
