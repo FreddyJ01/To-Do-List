@@ -1,25 +1,30 @@
-.header {
-    text-align: center;
-}
-
 body {
     background-color: #1d2a35;
     color: #dfdcdb;
 }
 
-.daysOfWeek {
+.days {
     border: 2px solid #dfdcdb;
     width: 20%;
     text-align: center;
+    min-height: 300px;
 }
 
-#Tuesday {
-    border: 2px solid #dfdcdb;
-    width: 20%;
-}
-
-#weekdays, #weekends {
+.daysContainer {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: center;
+}
+
+.title {
+    display: flex;
+}
+
+button {
+    margin-left: 20px;
+    margin-top: 25px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    cursor: pointer;
 }

@@ -1,0 +1,3 @@
+function addNewTask() {
+    prompt("Hello!");
+}
