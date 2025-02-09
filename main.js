@@ -1,3 +1,4 @@
 function addNewTask() {
-    prompt("Hello!");
+    let taskTitle = prompt("Title");
+    let dueDate = prompt("Due Date");
 }
